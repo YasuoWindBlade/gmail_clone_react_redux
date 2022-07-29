@@ -1,0 +1,54 @@
+.message{
+    width: 100%;
+    height: 40px;
+    border-bottom: 0.1px solid #d9d9d9;
+ 
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    padding: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+  
+    text-overflow: ellipsis;
+   
+}
+.message:hover{
+    border-top: 0.1px solid #d9d9d9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 22;
+}
+.message__h1 > h1{
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    padding-left: 10px;
+}
+.message__p> p{
+    font-size: 0.8rem;
+    white-space: nowrap;
+    color: gray;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   padding-left: 10px;
+}
+
+.message__h1,.message__p{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+  
+
+}
+.message__h1{
+    margin-left: 10px;
+}
+.message__p{
+    width: 60%;
+    margin-right: 40px;
+}
+.message:hover>.message__h1>h1,.message:hover>.message__p>p ,.message:hover> .icon__message{
+    color: black !important;
+}

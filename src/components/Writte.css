@@ -1,0 +1,56 @@
+.POP__TO__writte{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    background-color:white;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+   
+}
+.Header__pop{
+    width: 100%;
+    height: 40px;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    
+  justify-content: space-between;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Header__pop > h1{
+    font-size: 0.8rem;
+
+}
+.input__to,.input__message{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    height: 50px;
+    font-size: 1rem;
+}
+.input__message{
+height: 40%;
+}
+.outLine:focus{
+    outline: none;
+}
+.input__Button__sender{
+    height: 50px;
+    width: 100%;
+    padding: 8px;
+    padding-right: 20px;
+    position:absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}

@@ -1,0 +1,38 @@
+.Feel{
+    width: 77%;
+    height: 100%;
+   
+}
+.Feel__header , .Feel__header__icons{
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 0.2px solid #d9d9d9;
+}
+.Feel__header__icons{
+    height: 60px;
+}
+.button__header__router{
+    width: 26%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 10px;
+    font-weight: 500;
+
+}
+.button__header__router:hover,.button__header__router:hover>span,.button__header__router:hover>.icon_h{
+    color: black !important;
+    background-color: #d9d9d9;
+}
+.span__button{
+    font-weight: 400;
+}
